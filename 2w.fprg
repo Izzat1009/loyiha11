@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS Vivobook"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-13 03:44:32 PM"/>
+        <attribute name="created" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMzswMzoyOToyMCBQTTsyOTQ4"/>
+        <attribute name="edited" value="QVNVUyBWaXZvYm9vaztGRERZWVk7MjAyNC0wOC0xMzswMzo0NDozMiBQTTsyOzMwNTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, index" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="0"/>
+            <input variable="index"/>
+            <while expression="index &gt; n">
+                <assign variable="n" expression="n + 1"/>
+                <output expression="n" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
